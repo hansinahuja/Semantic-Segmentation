@@ -8,8 +8,26 @@ Performing multi-class semantic image segmentation using a fully convolutional n
 - The dataset used is the sample data prepared by [Divam Gupta.](https://github.com/divamgupta) It can be found in `./dataset` or [here.](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view)
 - Pretrained VGG16 weights can be downloaded using [Keras](https://keras.io/applications/#vgg16). They have been stored in `./pretrained_weights` as well.
 
+**Note:** to use `./src/predict.py`, first follow the instructions given in `./checkpoints/instructions.md`.
+
 ## Description
 
 The detailed explanation of the model can be found in the aforementioned paper. The model described in the paper:
 
 ![FCN model](img/research_model.JPG)
+
+Visualization of model returned by `./src/create_model.py`:
+
+![Model plot](img/model_plot.png) 
+
+## Result visualisation
+
+Model tested on data in `./dataset/test/`. Some of the results are as follows:
+
+Input image           Predictions           True values
+
+![Test 1](img/result_1.JPG)
+
+![Test 2](img/result_2.JPG)
+
+![Test 3](img/result_3.JPG)
