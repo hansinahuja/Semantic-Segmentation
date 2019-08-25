@@ -23,6 +23,6 @@ Visualization of model returned by `./src/create_model.py`:
 
 ## Result visualisation
 
-Model tested on data in `./dataset/test/`. Some of the results are as follows:
+Model tested on data in `./dataset/test/`. An accuracy of 86.76% was obtained. Some of the results are as follows:
 
 ![Results](img/results.JPG)
