@@ -25,4 +25,4 @@ Visualization of model returned by `./src/create_model.py`:
 
 Model tested on data in `./dataset/test/`. Some of the results are as follows:
 
-![Results](img/result.JPG)
+![Results](img/results.JPG)
