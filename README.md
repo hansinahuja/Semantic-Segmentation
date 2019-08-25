@@ -18,16 +18,11 @@ The detailed explanation of the model can be found in the aforementioned paper. 
 
 Visualization of model returned by `./src/create_model.py`:
 
+
 ![Model plot](img/model_plot.png) 
 
 ## Result visualisation
 
 Model tested on data in `./dataset/test/`. Some of the results are as follows:
 
-Input image           Predictions           True values
-
-![Test 1](img/result_1.JPG)
-
-![Test 2](img/result_2.JPG)
-
-![Test 3](img/result_3.JPG)
+![Results](img/result.JPG)
